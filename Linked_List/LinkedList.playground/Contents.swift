@@ -1,3 +1,10 @@
 import UIKit
 
-var str = "Hello, playground"
+public class Node<T>{
+    var value: T?
+    var next:Node?
+    
+    init(val:T) {
+        value = val
+    }
+}
